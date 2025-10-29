@@ -1,0 +1,10 @@
+#include <lpc21xx.h>
+#include "defines.h"
+#include "lcd.h"
+#include "lcd_defines.h"
+#include "kpm.h"
+#include "kpm_defines.h"
+#include "interrupts.h"
+#include "rtc1.h"
+#include "delay.h"
+#include "adc.h"

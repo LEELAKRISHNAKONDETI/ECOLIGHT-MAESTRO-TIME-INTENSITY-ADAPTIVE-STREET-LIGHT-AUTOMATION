@@ -1,0 +1,16 @@
+void InitRTC(void);
+void SetRTCTime(int h,int m,int s);
+void SetRTCDate(int ,int ,int );
+void GetRTCTime(int*h,int*m,int*s);
+void GetRTCDate(int*,int*,int*);
+void DisplayRTCTime(int h,int m,int s);
+void DisplayRTCDate(int ,int ,int );
+void SetRTCDays(int);
+void GetRTCDays(int*);
+void DisplayRTCDays(int);
+void SetHour(int num);
+void SetMin(int);
+void SetSec(int);
+void SetDay(int);
+void SetMonth(int);
+void SetYear(int);
